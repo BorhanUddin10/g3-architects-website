@@ -1,9 +1,24 @@
 /*wark sens front*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap');
 
+/*share styles*/
 *{
     font-family: 'Open Sans', sans-serif;
 }
+
+.btn-primary{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #ff900e;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+
+/*header styles*/
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -33,4 +48,18 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+.banner-content{
+    max-width: 800;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+
 }
